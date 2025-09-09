@@ -26,33 +26,33 @@ This application enables teams to **plan, track, and manage projects** with a Ka
 ## 🏗️ Project Structure
 
 Task-Project-Management-Tool/
-│── frontend/ # React Frontend
-│ ├── src/
-│ │ ├── components/ # Reusable UI Components
-│ │ ├── pages/ # Page-Level Components
-│ │ ├── services/ # API Calls
-│ │ ├── redux/ # Redux Toolkit State Management
-│ │ ├── App.js
-│ │ ├── index.js
-│ ├── public/
-│ ├── package.json
-│ ├── README.md
-│
-│── backend/ # .NET Core Backend
-│ ├── Controllers/ # API Controllers
-│ ├── Models/ # Database Models
-│ ├── Services/ # Business Logic
-│ ├── Data/ # EF Core Database Context
-│ ├── Program.cs
-│ ├── Startup.cs
-│ ├── appsettings.json
-│ ├── README.md
-│
-│── docs/ # Documentation & API Docs
-│── tests/ # Unit Tests & API Testing
-│── deployment/ # Docker, Azure/AWS deployment
-│── .gitignore
-│── README.md
+- │── frontend/ # React Frontend
+- │ ├── src/
+- │ │ ├── components/ # Reusable UI Components
+- │ │ ├── pages/ # Page-Level Components
+- │ │ ├── services/ # API Calls
+- │ │ ├── redux/ # Redux Toolkit State Management
+- │ │ ├── App.js
+- │ │ ├── index.js
+- │ ├── public/
+- │ ├── package.json
+- │ ├── README.md
+- │
+- │── backend/ # .NET Core Backend
+- │ ├── Controllers/ # API Controllers
+- │ ├── Models/ # Database Models
+- │ ├── Services/ # Business Logic
+- │ ├── Data/ # EF Core Database Context
+- │ ├── Program.cs
+- │ ├── Startup.cs
+- │ ├── appsettings.json
+- │ ├── README.md
+- │
+- │── docs/ # Documentation & API Docs
+- │── tests/ # Unit Tests & API Testing
+- │── deployment/ # Docker, Azure/AWS deployment
+- │── .gitignore
+- │── README.md
 
 markdown
 Copy code
@@ -63,9 +63,8 @@ Copy code
 
 - **Frontend:** React, Redux Toolkit, TailwindCSS  
 - **Backend:** .NET Core Web API, Entity Framework Core  
-- **Database:** SQL Server / PostgreSQL (configurable)  
+- **Database:** SQL Server  
 - **Auth:** JWT-based authentication  
-- **Deployment:** Azure / AWS (Backend), Vercel / Netlify (Frontend)  
 
 ---
 
