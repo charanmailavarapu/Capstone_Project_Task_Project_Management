@@ -1,0 +1,13 @@
+/* RoleGuard - Access Denied Message */
+.roleguard-denied {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  padding: 24px 18px;
+  color: #2563eb; /* blue-600 */
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 32px auto;
+  max-width: 400px;
+}

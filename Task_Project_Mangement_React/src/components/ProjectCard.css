@@ -1,0 +1,57 @@
+/* ProjectCard.css - Jira-like styles for Project Card component */
+
+.projectcard-bg {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.projectcard-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #253858;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.projectcard-meta {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.projectcard-badge {
+  background: #e9ecef;
+  color: #0052cc;
+  border-radius: 4px;
+  padding: 2px 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.projectcard-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.projectcard-btn {
+  background: #0052cc;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  box-shadow: 0 2px 8px rgba(0,82,204,0.08);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.projectcard-btn:hover {
+  background: #0747a6;
+}

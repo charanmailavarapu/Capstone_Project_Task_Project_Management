@@ -1,0 +1,70 @@
+/* TaskCard.css - Jira-like styles for Task Card component */
+
+.taskcard-bg {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 20px 22px;
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.taskcard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.taskcard-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #253858;
+  cursor: pointer;
+}
+
+.taskcard-badge {
+  background: #e9ecef;
+  color: #0052cc;
+  border-radius: 4px;
+  padding: 2px 10px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+.taskcard-desc {
+  color: #42526e;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.taskcard-meta {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.taskcard-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.taskcard-btn {
+  background: #0052cc;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 16px;
+  box-shadow: 0 2px 8px rgba(0,82,204,0.08);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.taskcard-btn:hover {
+  background: #0747a6;
+}

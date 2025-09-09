@@ -1,0 +1,76 @@
+/* Navbar.css - Jira-like styles for Navbar component */
+
+.navbar-bg {
+  width: 100%;
+  background: linear-gradient(90deg, #0052cc 0%, #0747a6 100%);
+  box-shadow: 0 2px 8px rgba(0,82,204,0.08);
+  padding: 0;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 64px;
+}
+
+.navbar-logo {
+  font-weight: 800;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(0,82,204,0.08);
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar-link {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.navbar-link:hover {
+  background: #0747a6;
+}
+
+.navbar-btn {
+  background: #f4f5f7;
+  color: #0052cc;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.navbar-btn:hover {
+  background: #e9ecef;
+}
+
+.btn {
+  background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+.btn:hover {
+  background: linear-gradient(90deg, #1565c0 60%, #1976d2 100%);
+}

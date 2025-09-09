@@ -1,0 +1,136 @@
+.admin-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4f5f7 0%, #e9ecef 100%);
+  padding: 32px 0;
+}
+
+.admin-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 32px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  padding-top: 32px;
+}
+
+.admin-title {
+  font-weight: 800;
+  font-size: 32px;
+  color: #1976d2;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+  background: #f4f5f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.admin-table th, .admin-table td {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 16px;
+  color: #42526e;
+}
+
+.admin-table th {
+  background: #e9ecef;
+  font-weight: 600;
+  color: #0052cc;
+}
+
+.admin-table tr {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.admin-table tr:last-child {
+  border-bottom: none;
+}
+
+.admin-action-btn {
+  background: #0052cc;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  box-shadow: 0 2px 8px rgba(0,82,204,0.08);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.admin-action-btn:hover {
+  background: #0747a6;
+}
+
+.admin-role-badge {
+  background: #1976d2;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 6px 18px;
+  font-size: 16px;
+  box-shadow: 0 2px 8px #1976d233;
+}
+
+.admin-card {
+  background: #f4f8ff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px #1976d211;
+  padding: 32px 28px;
+  margin-top: 24px;
+}
+
+.admin-users-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #1976d211;
+  overflow: hidden;
+}
+.admin-users-table th {
+  background: #e3f0ff;
+  color: #1976d2;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 8px;
+  border-bottom: 2px solid #1976d2;
+}
+.admin-users-table td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 15px;
+  color: #253858;
+}
+.admin-users-table tr:hover {
+  background: #f0f4fa;
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 6px solid #e3f0ff;
+  border-top: 6px solid #1976d2;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

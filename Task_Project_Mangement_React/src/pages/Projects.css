@@ -1,0 +1,175 @@
+/* Projects Page Styles (Jira-like) */
+
+.projects-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4f5f7 0%, #e9ecef 100%);
+  padding: 32px 0;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.projects-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.projects-header h2 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #253858;
+  margin: 0;
+}
+
+.projects-create-btn {
+  background: #0052cc;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  box-shadow: 0 2px 8px rgba(0,82,204,0.08);
+  cursor: pointer;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 28px;
+}
+
+.projects-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projects-card header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.projects-card h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #253858;
+  margin: 0;
+}
+
+.projects-card .card-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.projects-card .card-actions button {
+  background: #e9ecef;
+  color: #0052cc;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+.projects-card .card-actions button:last-child {
+  background: #ffe2e2;
+  color: #d7263d;
+}
+
+.projects-card p {
+  color: #6b778c;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.projects-card .project-stats {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.projects-card .project-stats span {
+  background: #e9ecef;
+  color: #253858;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.projects-card .board-btn {
+  background: #0052cc;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  box-shadow: 0 2px 8px rgba(0,82,204,0.08);
+  cursor: pointer;
+}
+
+.projects-modal {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 28px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-modal label {
+  font-weight: 500;
+  color: #42526e;
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.projects-modal input,
+.projects-modal textarea,
+.projects-modal select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #dfe1e6;
+  font-size: 15px;
+  background: #fafbfc;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.projects-modal .modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.projects-modal .modal-actions button {
+  background: #e9ecef;
+  color: #42526e;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+.projects-modal .modal-actions button:last-child {
+  background: #0052cc;
+  color: #fff;
+  font-weight: 600;
+}
